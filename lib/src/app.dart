@@ -15,6 +15,7 @@ class App extends StatelessWidget {
       darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
       title: 'Flutter Demo',
       home: const AuthPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
